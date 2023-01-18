@@ -1,45 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title> Small Startup - Home</title>
   <link rel="icon" href="src/images/Logo/LogoWhite.svg">
+  <title> Small Startup - Home</title>
   <link rel="stylesheet" href="src/styles/designSystem.css">
   <link rel="stylesheet" href="src/styles/index.css">
 </head>
+
 <body>
-<nav class="hero">
-  <div class="navbar container">
-    <div class="navbar__logo">
-      <img src="src/images/Logo/LogoWhite.svg"  alt="" class ="navbar__logo--image"></img>
-      <div class="navbar__logo--text">Start</div>
+  <nav class="hero">
+    <div class="navbar container">
+      <div class="navbar__logo">
+        <img src="src/images/Logo/LogoWhite.svg" alt="" class="navbar__logo--image"></img>
+        <div class="navbar__logo--text">Start</div>
+      </div>
+      <div class="navbar__menu hidden">
+        <a href="index.html" class="navbar__menu--1">Home</a>
+        <a href="portfolio.html" class="navbar__menu--2">Portfolio</a>
+        <a href="service.html" class="navbar__menu--3">Service</a>
+        <a href="contact.html" class="navbar__menu--4">Contact</a>
+      </div>
+      <div class="navbar__icon">
+        <i class="bi bi-list"></i>
+        <i class="bi bi-x-lg hide"></i>
+      </div>
     </div>
-    <div class="navbar__menu hidden">
-      <a href="" class="navbar__menu--1">Home</a>
-      <a href="" class="navbar__menu--2">Portfolio</a>
-      <a href="" class="navbar__menu--3">Service</a>
-      <a href="" class="navbar__menu--4">Contact</a>
-    </div>
-    <div class="navbar__icon">
-      <i class="bi bi-list"></i>
-      <i class="bi bi-x-lg hide"></i>
-    </div>
-  </div>
 
-  <header class="header grid container">
-    <div class="header__left flex">
-      <div class="header__left--label label text-white">welcome</div>
-      <div class="header__left--title common-title text-white">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</div>
-      <div class="header__left--text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid, rerum quidem ratione laudantium excepturi iste reprehenderit officiis reiciendis voluptatum? Quo. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet nemo repudiandae quae non harum amet.</div>
-      <button class="header__left--btn white-btn">Explore</button>
+    <header class="header grid container">
+      <div class="header__left flex">
+        <div class="header__left--label label text-white">welcome</div>
+        <div class="header__left--title common-title text-white">Lorem ipsum dolor sit amet consectetur, adipisicing
+          elit.</div>
+        <div class="header__left--text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid, rerum quidem
+          ratione laudantium excepturi iste reprehenderit officiis reiciendis voluptatum? Quo. Lorem ipsum dolor sit,
+          amet consectetur adipisicing elit. Eveniet nemo repudiandae quae non harum amet.</div>
+        <button class="header__left--btn white-btn">Explore</button>
+      </div>
+      <img src="src/images/Home/image-1.svg" alt="" class="header__right responsive-image">
+    </header>
+  </nav>
+  <section class="sectionOne container">
+    <div class="sectionOne__content text-center flex">
+      <div class="sectionOne__content--label label text-green">partner</div>
+      <div class="sectionOne__content--title common-title">Lorem ipsum dolor sit amet consectetur.</div>
+      <div class="sectionOne__content--text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, est.</div>
     </div>
-    <img src="src/images/Home/image-1.svg" alt="" class="header__right responsive-image">
-  </header>
-</nav>
-
-
+    <div class="sectionOne__logo">
+      <img src="src/images/Companies/Google.svg" alt="" class="responsive-image">
+      <img src="src/images/Companies/Facebook.svg" alt="" class="responsive-image">
+      <img src="src/images/Companies/Airbnb.svg" alt="" class="responsive-image">
+      <img src="src/images/Companies/Spotify.svg" alt="" class="responsive-image">
+      <img src="src/images/Companies/Microsoft.svg" alt="" class="responsive-image">
+    </div>
+    <button class="sectionOne__btn dark-btn">Learn More</button>
+  </section>
+  <section class="sectionTwo container grid">
+    <img src="src/images/Home/image-2.svg" alt="" class="sectionTwo responsive-image">
+    <div class="sectionTwo__right flex">
+      <div class="sectionTwo__right--title common-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+      <div class="sectionTwo__right--text ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit illo nihil repellendus officia corporis quasi dicta, placeat ab ipsam animi voluptas ipsa cumque alias commodi nulla architecto? Veritatis aliquam reiciendis assumenda neque odit laboriosam repudiandae.</div>
+      <button class="sectionTwo__right--btn dark-btn">Explore</button>
+    </div>
+  </section>
+  <section class="sectionThree container grid">
+    <div class="sectionThree__left flex">
+      <div class="sectionThree__left--title common-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+      <div class="sectionThree__left--text ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit illo nihil repellendus officia corporis quasi dicta, placeat ab ipsam animi voluptas ipsa cumque alias commodi nulla architecto? Veritatis aliquam reiciendis assumenda neque odit laboriosam repudiandae.</div>
+      <button class="sectionThree__left--btn dark-btn">Explore</button>
+    </div>
+    <img src="src/images/Home/image-3.svg" alt="" class="sectionthree__right responsive-image">
+  </section>
+  <section class="sectionFour container">
+    <div class="sectionFour__content text-center">
+      <div class="secttionFour__content--label label text-green">teams</div>
+      <div class="secttionFour__content--title common-title">Our team</div>
+      <div class="secttionFour__content--text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia, odit.</div>
+    </div>
+    <div class="sectionFour__cards ">
+      <div class="sectionFour__cards--1">
+        <img src="src/images/team/Peg_Legge.svg" alt="" class="responsive-image">
+        <div class="name">pegg legg</div>
+        <div class="position">CEO</div>
+      </div>
+      <div class="sectionFour__cards--2">  
+        <img src="src/images/team/Richard.svg" alt="" class="responsive-image">
+        <div class="name">Richard Guerra</div>
+        <div class="position">CTO</div>
+      </div>
+      <div class="sectionFour__cards--3">
+        <img src="src/images/team/Alexandra.svg" alt="" class="responsive-image">
+        <div class="name">Alexandra Stolz</div>
+        <div class="position">DESIGNER</div>
+      </div>
+      <div class="sectionFour__cards--4">
+        <img src="src/images/team/Janet.svg" alt="" class="responsive-image">
+        <div class="name">Jenet Brey</div>
+        <div class="position">DEVELOPER</div>
+      </div>
+    </div>
+    <button class="sectionFour__btn dark-btn">ViewTeam</button>
+  </section>
+  <footer class="footerWrapper">
+    <div class="footerLinks container">
+      <div class="footerLinks__socials">
+        <img src="src/images/socials/facebook.svg" alt="">
+        <img src="src/images/socials/instagram.svg" alt="">
+        <img src="src/images/socials/twitter.svg" alt="">
+        <img src="src/images/socials/tiktok.svg" alt="">
+        <img src="src/images/socials/pinterest.svg" alt="">
+        <img src="src/images/socials/whatsapp.svg" alt="">
+        <img src="src/images/socials/youtube.svg" alt="">
+      </div>
+      <div class="footerLinks__copyright text-white text-center">© Start, 2022. All right reserved.</div>
+    </div>
+  </footer>
 </body>
 <script src="src/main.js"></script>
+
 </html>
